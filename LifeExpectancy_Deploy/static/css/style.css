@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.bg-dark{
+    background-color: black;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+body{
+    font-family: "Merriweather", sans-serif;
+    /* background-color: #ebf2ff; */
+    overflow-x: hidden;
+}
+
+.body-style{
+
+    background: url("https://images.pexels.com/photos/3178786/pexels-photo-3178786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+}
+
+.body-style::placeholder {
+    color: #fff;
+    opacity: 80%;
+  }
