@@ -50,7 +50,7 @@ def predict():
 
         print(prediction)
 
-        return render_template('show.html',inf=prediction)
+        return render_template('show.html',c=mydict['Country'],inf=prediction)
     return render_template('index1.html')
 
 
